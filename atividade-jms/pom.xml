@@ -9,7 +9,8 @@
         <module>order</module>
     <module>email</module>
     <module>cartcred</module>
-  </modules>
+        <module>shared</module>
+    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>

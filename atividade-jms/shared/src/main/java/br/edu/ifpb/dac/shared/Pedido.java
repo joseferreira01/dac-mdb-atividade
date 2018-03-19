@@ -1,4 +1,4 @@
-package edu.ifpb.dac;
+package br.edu.ifpb.dac.shared;
 
 import java.io.Serializable;
 import java.util.ArrayList;

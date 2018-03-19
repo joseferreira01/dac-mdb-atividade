@@ -1,4 +1,4 @@
-package edu.ifpb.dac;
+package br.edu.ifpb.dac.shared;
 
 import java.io.Serializable;
 import javax.persistence.Entity;
@@ -26,6 +26,13 @@ public class Cliente implements Serializable {
         this.nome = nome;
         this.email = email;
     }
+
+    public Cliente(int id, String nome, String email) {
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+    }
+    
 
     public int getId() {
         return id;
