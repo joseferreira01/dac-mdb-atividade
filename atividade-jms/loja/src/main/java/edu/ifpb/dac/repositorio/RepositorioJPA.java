@@ -9,20 +9,19 @@ import java.util.List;
 
 /**
  *
- * @author jose
+ * @author jose2
+ * @param <T>
  */
-public interface Repository<T> {
+public interface RepositorioJPA<T> {
 
-//    void salvar(T entity);
-//
-//    void atualizar(T entity);
-//
-//    void deletar(int chavePrimaria);
-///**
- 
- 
-    T buscar(String atributo, Object valor);
+    public void add(T entity);
 
-    List<T> buscarTodos();
+    public T find(int key ,Class<T> type);
+
+    public List<T> findAll(Class<T> type);
+
+    public T update(T entity);
+
+    public void remove(T entity);
 
 }
